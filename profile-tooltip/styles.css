@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 100px;
+    clip-path: circle();
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.avatar:hover {
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.avatar-border {
+    text-align: center;
+}
+
+.avatar_small {
+    width: 60px;
+    clip-path: circle();
+    flex: 1;
+}
+
+.text {
+    width: 60vw;
+    max-width: 200px;
+    min-width: 350px;
+    margin: 0 auto;
+    background-color: rgba(92, 88, 199, 0.7);
+    padding: 2.0rem 2.5rem;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgba(92, 88, 199, 0.7);
+    margin: 0 auto;
+}
+
+.inner-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-inner-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 5px;
+}
+
+span {
+    flex: 2;
+}
+
+.message-button {
+    color: white;
+    background-color: #39B5E0;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 40px;
+    width: min-content;
+    margin: 0 auto;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.name {
+    font-size: 30px;
+    font-family: "Roboto", Arial sans-serif;
+}
+
+.description {
+    font-size: 15px;
+    font-family: "Roboto", Arial sans-serif;
+}
+
+.link-google {
+    color: white;
+    text-decoration: none;
+}
