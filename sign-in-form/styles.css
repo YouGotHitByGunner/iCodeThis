@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(145, 216, 228, 0.7) 34%, rgba(130, 170, 227, 0.7) 54%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-top: 60px;
+}
+
+h1 {
+    margin: 1em auto;
+    text-align: left;
+}
+
+input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 4em;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #C5D0E6;
+}
+
+form {
+    width: 60vw;
+    max-width: 350px;
+    min-width: 200px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2.0rem 2.5rem;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 60px -40px 0px #4D49E8, 60px 60px #4D49E8;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.inline {
+    width: 15px;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    height: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+.message-button {
+    background-color: #4D49E8;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 4px 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    letter-spacing: .1em;
+}
+
+.password-text {
+    font-size: 12px;
+}
+
+.sign-in-text,
+#email-label,
+#password-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-button {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+.password-text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.account-text,
+.sign-up {
+    text-align: center;
+    font-weight: 600;
+}
+
+a {
+    color: black;
+}
+
+.account-text {
+    padding-top: 20px;
+}
+
+.message-button:hover {
+    background-color: #2C74B3;
+}
+
+.message-button:active {
+    background-color: #2C74B3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.password-box {
+    display: flex;
+    flex-wrap: wrap;
+}
