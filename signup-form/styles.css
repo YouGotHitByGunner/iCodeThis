@@ -11,20 +11,21 @@ body {
     background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
     color: black;
-    padding-top: 75px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 h1 {
     margin: auto;
     text-align: center;
-    font-size: 33px;
+    font-size: 38px;
     font-weight: 700;
     color: #1B1C40;
 }
 
 p {
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     color: #1B1C40;
 }
@@ -36,24 +37,45 @@ p {
     margin-top: 1em;
 }
 
+.policy-span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 input {
     margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 4em;
+    width: 75%;
+    min-height: 2.5em;
     border-radius: 5px;
     border-style: solid;
     border-color: #C5D0E6;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+#first-name, #last-name {
+    margin: 10px 0 0 0;
+    width: 35%;
+    min-height: 2.5em;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #C5D0E6;
+    color: #8D8E9F;
+}
+
+#first-name {
+    margin-right: 10px;
 }
 
 form {
     width: 60vw;
-    max-width: 350px;
+    max-width: 400px;
     min-width: 200px;
-    height: 460px;
+    height: 480px;
     margin: 0 auto;
     background-color: white;
     padding: 2.0rem 2.5rem;
-    padding-bottom: 50px;
+    padding-bottom: 140px;
     border-radius: 10px;
     box-shadow: -20px -20px 0px #E6EFFB, 20px -20px 0px #E6EFFB, -20px 20px 0px #E6EFFB, 20px 20px 0px #E6EFFB;
 }
@@ -76,20 +98,23 @@ fieldset {
 }
 
 .message-button {
-    background-color: #4D49E8;
+    background-color: #1E2C4B;
     border: none;
     color: white;
     padding: 15px;
-    width: 120px;
+    width: 300px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
     margin: 4px 2px;
-    border-radius: 30px;
+    border-radius: 5px;
     cursor: pointer;
     letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .facebook-button {
@@ -112,13 +137,23 @@ fieldset {
     font-family: 'Open Sans', sans-serif;
 }
 
-.facebook-div {
+.facebook-div, .new-account-div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.new-account-div {
+    margin-top: 10px;
+}
+
 .or-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-div, .email-div, .password-div {
     display: flex;
     align-items: center;
     justify-content: center;
