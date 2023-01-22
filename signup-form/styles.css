@@ -53,7 +53,8 @@ input {
     font-size: 15px;
 }
 
-#first-name, #last-name {
+#first-name,
+#last-name {
     margin: 10px 0 0 0;
     width: 35%;
     min-height: 2.5em;
@@ -78,19 +79,6 @@ form {
     padding-bottom: 140px;
     border-radius: 10px;
     box-shadow: -20px -20px 0px #E6EFFB, 20px -20px 0px #E6EFFB, -20px 20px 0px #E6EFFB, 20px 20px 0px #E6EFFB;
-}
-
-label {
-    display: block;
-    margin: 1rem 0;
-    font-weight: 600;
-}
-
-.inline {
-    width: 15px;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
-    height: 15px;
 }
 
 fieldset {
@@ -137,7 +125,8 @@ fieldset {
     font-family: 'Open Sans', sans-serif;
 }
 
-.facebook-div, .new-account-div {
+.facebook-div,
+.new-account-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,62 +142,36 @@ fieldset {
     justify-content: center;
 }
 
-.inputs-div, .email-div, .password-div {
+.inputs-div,
+.email-div,
+.password-div {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.password-text {
-    font-size: 12px;
-}
-
-.sign-in-text,
-#email-label,
-#password-label {
-    display: flex;
-    flex-direction: column;
-}
-
-.body-button {
-    display: flex;
-    justify-content: left;
-    margin: auto;
-}
-
-.password-text {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-weight: 600;
-    justify-content: center;
-}
-
-.account-text,
-.sign-up {
-    text-align: center;
-    font-weight: 600;
-}
-
-a {
-    color: black;
 }
 
 .account-text {
+    text-align: center;
+    font-weight: 600;
     padding-top: 20px;
 }
 
 .message-button:hover {
-    background-color: #2C74B3;
+    background-color: #4968AD;
 }
 
 .message-button:active {
-    background-color: #2C74B3;
+    background-color: #4968AD;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-.password-box {
-    display: flex;
-    flex-wrap: wrap;
+.facebook-button:hover {
+    background-color: #1E2C4B;
+}
+
+.facebook-button:active {
+    background-color: #1E2C4B;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
